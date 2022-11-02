@@ -19,27 +19,27 @@ body {
 }
 
 h1 {
-  font-size: clamp(1rem, 3vw, 3.5rem) !important;
+  font-size: clamp(1.8em, 3vw, 3em) !important;
 }
 
 h2 {
-  font-size: clamp(0.7rem, 1.5vw, 2rem) !important;
+  font-size: clamp(1.2em, 1.8vw, 2em) !important;
 }
 
 h3 {
-  font-size: clamp(0.8rem, 1.8vw, 2.2rem) !important;
+  font-size: clamp(1.2em, 1.5vw, 1.8em) !important;
 }
 
 h4 {
-  font-size: clamp(0.6rem, 1.3vw, 1.8rem) !important;
+  font-size: clamp(1.1em, 1.3vw, 1.6em) !important;
 }
 
 h5 {
-  font-size: clamp(0.4rem, 1vw, 1.5rem) !important;
+  font-size: clamp(1em, 1vw, 1.5em) !important;
 }
 
-p, li {
-  font-size: clamp(0.8rem, 1.2vw, 1.5rem);
+p, li, blockquote {
+  font-size: clamp(1em, 1.2vw, 1.2em) !important;
   line-height: 175% !important;
 }
 

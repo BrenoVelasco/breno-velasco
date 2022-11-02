@@ -6,6 +6,7 @@
 <main class="flex justify-center">
   <div id="content" class="flex">
     <Sidebar />
+
     <Main />
   </div>
 </main>
@@ -21,7 +22,7 @@
   }
 
   #content {
-    max-width: 1680px;
-    width: 97.5%;
+    max-width: 1440px;
+    width: 100%;
   }
 </style>

@@ -17,7 +17,7 @@
     <div class="basis-2/3">
       <h4 class="font-semibold text-white">{educationItem.name}</h4>
       {#if educationItem.course}
-        <h5 class="font-medium text-white mb-5">{educationItem.course}</h5>
+        <h5 class="font-medium text-white mb-3">{educationItem.course}</h5>
       {/if}
     </div>
   </div>

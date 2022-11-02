@@ -25,6 +25,6 @@
   }
 
   #header-location {
-    font-size: clamp(0.75rem, 1.5vw, 1.5rem) !important;
+    font-size: clamp(1rem, 1.5vw, 1.5rem) !important;
   }
 </style>

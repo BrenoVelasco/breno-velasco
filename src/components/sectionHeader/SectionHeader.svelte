@@ -8,14 +8,14 @@
 {#if fromSidebar}
   <h4
     class="section-header text-gray-800"
-    style="border-left: 1em solid {color}; color: {textColor}"
+    style="border-left: 0.5em solid {color}; color: {textColor}"
   >
     {title}
   </h4>
 {:else}
   <h3
     class="section-header text-gray-800"
-    style="border-left: 1em solid {color}; color: {textColor}"
+    style="border-left: 0.5em solid {color}; color: {textColor}"
   >
     {title}
   </h3>
@@ -32,7 +32,7 @@
   .section-header {
     font-weight: 600;
     text-transform: uppercase;
-    padding-left: 1em;
+    padding-left: 0.75em;
     margin-top: 1.5em;
   }
 
@@ -40,12 +40,12 @@
     margin-top: 1em;
     margin-bottom: 1em;
     width: 100%;
-    height: 0.125rem;
+    height: 0.15rem;
   }
 
   .section-header-line-colored {
     margin-top: 1em;
-    width: 3.5em;
-    height: 0.125rem;
+    width: 1.75em;
+    height: 0.15rem;
   }
 </style>
