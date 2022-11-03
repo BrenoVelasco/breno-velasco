@@ -43,6 +43,10 @@ p, li, blockquote {
   line-height: 175% !important;
 }
 
+ul {
+  list-style-type: square;
+}
+
 /* @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

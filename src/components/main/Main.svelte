@@ -7,7 +7,7 @@
   import TopLine from '../topLine/TopLine.svelte'
   import Education from './components/education/Education.svelte'
   import ExperienceSummary from './components/experienceSummary/ExperienceSummary.svelte'
-  import Goals from './components/goals/Goals.svelte'
+  import SummaryStatement from './components/summaryStatement/SummaryStatement.svelte'
   import Header from './components/header/Header.svelte'
   import ProfessionalExperience from './components/professionalExperience/ProfessionalExperience.svelte'
 </script>
@@ -28,7 +28,7 @@
   </section>
 
   <section>
-    <Goals />
+    <SummaryStatement />
     <ExperienceSummary />
     <ProfessionalExperience />
   </section>

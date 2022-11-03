@@ -15,11 +15,17 @@
     </div>
 
     <div class="md:basis-2/3">
-      <h4 class="font-semibold text-gray-800">{experience.name}</h4>
+      <h4 class="font-semibold uppercase text-gray-800">{experience.name}</h4>
       <h5 class="font-medium text-gray-800 mb-3 md:md-5">{experience.title}</h5>
-      <p class="text-gray-800 text-justify">{experience.description}</p>
+      <p class="text-gray-800 text-justify mb-3">{experience.description}</p>
 
-      <p class="font-medium text-gray-800">
+      <ul>
+        {#each experience.tasks as task}
+          <li class="mb-1 text-justify">{task}</li>
+        {/each}
+      </ul>
+
+      <p class="font-medium text-gray-800 mt-3">
         {experience.tech.join(', ')}
       </p>
     </div>
