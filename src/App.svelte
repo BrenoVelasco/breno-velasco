@@ -1,6 +1,10 @@
 <script>
+  import { inject } from '@vercel/analytics'
+
   import Main from './components/main/Main.svelte'
   import Sidebar from './components/sidebar/Sidebar.svelte'
+
+  inject()
 </script>
 
 <main class="flex justify-center">
