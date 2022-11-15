@@ -20,16 +20,14 @@ type Education = {
   location: string
 }
 
+export const summaryStatement =
+  'Software Engineer with postgraduate degree in Information Technology Management, degree in Analysis and Systems Development and 6+ years experience in programming, including US-based companies. Seeking to enrich my technical and leadership skills in a company that works with React, Ruby on Rails/Node.js and Agile.'
+
 export const experienceSummary = [
-  '6+ years of experience in analysis and development of systems',
-  'Front-end expertise working with different types of systems - always looking for performance and scalability using React with Hooks',
-  'Experienced with API integrations',
-  'UI/UX design skills with wireframes and Figma',
-  'Knowledge in Amazon Web Services (AWS): EC2, ECS, S3, Lambda, Route53 etc',
-  'Some experience with Ruby on Rails: MVC, migrations, ORM and database maintenance',
-  'Focused on customer needs and delivering real solutions for real problems',
-  'Clean code and SOLID aware and always aspiring to keep the codebase as sustainable as possible',
-  'Code testing with Jest, Cypress and React Testing Library',
+  'React >16.8 advanced skills',
+  'UI/UX design skills - designed up to a hundred wireframes and prototypes using Figma',
+  'AWS and Ruby on Rails knowledge and familiarity',
+  'Code testing with Jest, Cypress and React Testing Library.',
 ]
 
 export const professionalExperience: ProfessionalExperience[] = [
@@ -40,10 +38,8 @@ export const professionalExperience: ProfessionalExperience[] = [
     description:
       'Sparck is a personalized employee recognition and engagement platform that helps companies create a thriving workplace.',
     tasks: [
-      'Lead Front-end Engineer, responsible for every decision regarding their front-end solution',
+      'Managed a 6-member tech team and, as a Front-end Engineer, was responsible for every technical decision of a platform with dozens of clients and tens of thousands active users',
       'Commenced as part-time working with Smarty PHP and Bootstrap 4. Decided to refactor the entire application using React and Material UI, as the previous implementation was not supporting our needs, and continued working full-time',
-      'Lead a team of four other developers (alongside the CTO and the Senior Back-end developer)',
-      'Dozens of clients and tens of thousands active users on our platform',
     ],
     tech: [
       'React',
@@ -68,10 +64,10 @@ export const professionalExperience: ProfessionalExperience[] = [
     description: 'Pineapple Workshop is a startup based in Denver.',
     tasks: [
       'Freelancer, responsible for the refactor of one legacy project and the creation of an online audio/video editor platform',
-      'Discussed with employees from multiple countries like Costa Rica, Egypt and US',
-      'Talked with clients to gather software requirements',
+      'Interacted with employees from multiple countries like Costa Rica, Egypt and US',
+      'Gathered software requirements from three different clients',
     ],
-    tech: ['React', 'Material Design', 'Websockets', 'Go'],
+    tech: ['React', 'MUI', 'Websockets', 'Go'],
     isRemote: true,
     started_at: 'Jun/2020',
     ended_at: 'Sep/2020',
@@ -85,8 +81,8 @@ export const professionalExperience: ProfessionalExperience[] = [
       'CaregiverAsia is an online aggregator of health and caregiving services.',
     tasks: [
       'Worked as a Front-end developer in the migration from Bootstrap 3 to Bootstrap 4 in their main system, in production running for years, in Ruby on Rails',
-      'Spoke with employees from Singapore, Australia and others to make the best decisions regarding the design and operation of pages and system modules',
-      'Suggested design improvements and alternatives that were implemented on the fly',
+      'Interacted with employees from Singapore, Australia and other countries to make the best decisions regarding the design and operation of pages and system modules',
+      'Lead more than ten design improvements and alternatives that were implemented on the fly',
     ],
     tech: ['Bootstrap', 'Sass', 'Ruby on Rails'],
     isRemote: true,
@@ -101,13 +97,12 @@ export const professionalExperience: ProfessionalExperience[] = [
     description:
       'RPC is the Paraná branch of the biggest TV channel in Brazil, called Globo.',
     tasks: [
-      'Developed the front-end of a transactional system using React Hooks, Material UI and other technologies',
-      'Developed management systems for the Você na RPC app, with which the CRC team communicates with viewers and the content team defines the feed and news to be shown in the app, as well as sending pushes - back-end, front-end and integrations',
-      'Flash project listing photos received during the soap opera Amor de Mãe - wireframes, front-end and integrations',
-      'Maintenance on several legacy systems, always in contact with related teams',
-      'Requirements elicitation and daily contact with teams from different areas of the company. Elaboration of business rules',
-      'Meetings and presentations for executives and directors on various topics - new technologies, tutorials on the systems developed and discussions on rules and business flows',
-      'Talked with clients to gather software requirements',
+      'Engineered the front-end of a transactional system with more than twenty modules',
+      'Developed (frontend and backend) management systems for the Você na RPC app (used by more than 500k users), with which the CRC team communicates with viewers and the content team defines the feed and news to be shown in the app, as well as sending pushes - back-end, front-end and integrations',
+      'Directed flash project of listing photos received during the soap opera Amor de Mãe (pagination with more than 10k submitted pictures) - wireframes, front-end and integrations',
+      'Maintained up to ten legacy systems, always in contact with related marketing, sales and CRC teams',
+      'Participated in requirements elaboration meetings and had daily contact with teams from different areas of the company',
+      'Prepared presentations for executives and directors on various topics: new technologies, tutorials and discussions on rules and business flows',
     ],
     tech: [
       'React',
@@ -129,10 +124,9 @@ export const professionalExperience: ProfessionalExperience[] = [
     description:
       'assina.ai was a startup with an on-demand subscription service solution.',
     tasks: [
-      'Lead the Front-end of the website assina.ai',
-      'Developed screens and front-end engineering using React/Redux and Bootstrap 4 from wireframes designed by an UI designer',
-      'Created migrations, models and logic in the API using Node.JS and Express',
-      "Gave front-end support to the project's back-end developer",
+      'Conceptualized screens and front-end engineering using React/Redux and Bootstrap 4 from wireframes designed by an UI designer',
+      'Implemented migrations, models and logic in the API using Node.JS and Express',
+      'Became a partner of the project creator and backend developer',
     ],
     tech: ['React', 'Node.js', 'Bootstrap 4'],
     isRemote: false,
@@ -147,10 +141,8 @@ export const professionalExperience: ProfessionalExperience[] = [
     description:
       'Ottech offers consulting, implementation and development for Sage ERP X3 solutions.',
     tasks: [
-      'Developed tables, screens, objects and system actions in Sage ERP X3',
-      'SOAP protocol Web Service configuration',
-      'Assisted consultants in building solutions for small and medium companies',
-      'Created modules and routines used by both consultants and customers',
+      'Engineered tables, screens, objects and system actions in Sage ERP X3',
+      'Prepared more than ten modules and routines used by both consultants and customers and assisted them through calls and meetings',
     ],
     tech: ['Sage X3 ERP', 'Javascript'],
     isRemote: false,
