@@ -32,6 +32,22 @@ export const experienceSummary = [
 
 export const professionalExperience: ProfessionalExperience[] = [
   {
+    id: 'subscribePro',
+    name: 'Subscribe Pro',
+    title: 'Software Engineer',
+    description:
+      'Subscribe Pro is a set of subscription eCommerce Solutions, enabling autoship, auto-replenishment, subscription boxes and recurring billing, tightly integrated with existing eCommerce platforms.',
+    tasks: [
+      'Responsible for the new Merchant App - React and Symfony - implementing Typescript from scratch',
+      'Constant communication with the support team to discuss new features and fix existing bugs. Sprint planning and retrospective with CEO (senior developer)',
+    ],
+    tech: ['React', 'Typescript', 'Symfony', 'Mutagen', 'AWS', 'Figma'],
+    isRemote: true,
+    started_at: 'Nov/2022',
+    ended_at: null,
+    location: 'Sacramento - CA',
+  },
+  {
     id: 'sparck',
     name: 'SPARCK CO • HR COMPANY',
     title: 'Senior Front-end Engineer',
@@ -54,7 +70,7 @@ export const professionalExperience: ProfessionalExperience[] = [
     ],
     isRemote: true,
     started_at: 'Apr/2020',
-    ended_at: null,
+    ended_at: 'Dec/2022',
     location: 'Sacramento - CA',
   },
   {
